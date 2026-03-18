@@ -129,4 +129,4 @@ Key endpoints include:
 - Passwords are hashed using `bcrypt`.
 - Use strong secrets for `JWT_SECRET` and rotate them regularly in production.
 
----
+--
