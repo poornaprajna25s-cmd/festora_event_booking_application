@@ -1,0 +1,28 @@
+{
+  "name": "campus-event-hub",
+  "version": "1.0.0",
+  "description": "Campus Event Hub - MERN Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "start": "cd backend && npm start",
+    "test": "cd backend && npm test"
+  },
+  "keywords": [
+    "mern",
+    "campus",
+    "event",
+    "management"
+  ],
+  "author": "Qoder",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "node-cron": "^4.2.1",
+    "socket.io": "^4.7.2"
+  }
+}
