@@ -15,7 +15,7 @@ A full-stack **college event management platform** built with a modern JavaScrip
 
 ---
 
-## 🌟 Key Features (Recruiter Highlights)
+## 🌟 Key Features (Highlights)
 
 - **Role-based access control (RBAC)** for Student, Organiser, and Admin users
 - **Event lifecycle management** (draft → pending → approved/rejected)
@@ -130,5 +130,3 @@ Key endpoints include:
 - Use strong secrets for `JWT_SECRET` and rotate them regularly in production.
 
 ---
-
-✨ **Ready for demonstration or interview walkthrough** — just run the backend and frontend locally and log in as a student, organiser, or admin to explore the full workflow.
